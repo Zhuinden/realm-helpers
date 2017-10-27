@@ -1,0 +1,1 @@
+include ':realm-auto-migration', ':realm-auto-migration-example', ':realm-singleton-manager', ':realm-singleton-manager-example', 'realm-pagination', 'realm-pagination-example'

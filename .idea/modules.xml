@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Realm-Helpers.iml" filepath="$PROJECT_DIR$/Realm-Helpers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/realm-auto-migration/realm-auto-migration.iml" filepath="$PROJECT_DIR$/realm-auto-migration/realm-auto-migration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/realm-auto-migration-example/realm-auto-migration-example.iml" filepath="$PROJECT_DIR$/realm-auto-migration-example/realm-auto-migration-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/realm-pagination/realm-pagination.iml" filepath="$PROJECT_DIR$/realm-pagination/realm-pagination.iml" />
+      <module fileurl="file://$PROJECT_DIR$/realm-pagination-example/realm-pagination-example.iml" filepath="$PROJECT_DIR$/realm-pagination-example/realm-pagination-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/realm-singleton-manager/realm-singleton-manager.iml" filepath="$PROJECT_DIR$/realm-singleton-manager/realm-singleton-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/realm-singleton-manager-example/realm-singleton-manager-example.iml" filepath="$PROJECT_DIR$/realm-singleton-manager-example/realm-singleton-manager-example.iml" />
+    </modules>
+  </component>
+</project>
