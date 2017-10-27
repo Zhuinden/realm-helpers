@@ -32,7 +32,7 @@ In case of mismatch, fields defined only in schema but not in model are removed,
 
 ### RealmList fields
 
-To add `RealmList` field, you must specify {@link MigratedList} on that field with the list type.
+To add `RealmList` field, you must specify `@RealmAutoMigration.MigratedList` on that field with the list type.
 
 This properly supports both links and primitive lists. 
 
@@ -54,10 +54,10 @@ public class Dog
 
     private Cat cat;
 
-    @AutoMigration.MigratedList(listType = Cat.class)
+    @RealmAutoMigration.MigratedList(listType = Cat.class)
     private RealmList<Cat> manyCats;
     
-    @AutoMigration.MigratedList(listType = String.class)
+    @RealmAutoMigration.MigratedList(listType = String.class)
     private RealmList<String> phoneNumbers;
 }
 ```
