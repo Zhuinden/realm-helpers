@@ -36,9 +36,7 @@ class RealmTiledDataSource<T extends RealmModel> extends TiledDataSource<T> {
     private final RealmResults<T> liveResults;
 
     private final RealmChangeListener<RealmResults<T>> realmChangeListener = results -> {
-        if(results.isLoaded()) {
-            invalidate();
-        }
+        invalidate();
     };
 
     // WORKER THREAD
