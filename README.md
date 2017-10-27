@@ -6,6 +6,8 @@ As they are alpha, they are not exposed yet on Jitpack.
 
 ## Realm Auto-Migration
 
+**Note: RealmAutoMigration supports only Realm-Java 4.0.0 or higher!**
+
 Automatic migration from the currently existing schema to the currently existing model classes.
 
 By calling `RealmAutoMigration.migrate(dynamicRealm)`, the schema is matched between the file and the models. 
